@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\hayasaka\OneDrive\workshop\20240600-sasimaniki\sasimaniki\sasimaniki.kicad_sch</source>
+    <date>8/9/2024 11:46:31 AM</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sasimaniki.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sasimaniki.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4aa3bae-c76b-49e5-b4d5-c2fa388c2007</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_2114_3652Metric_Pad1.85x3.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sasimaniki.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd5c12bc-9add-490e-98e2-8246fa51967c</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sasimaniki.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f450a524-5dfd-4204-8afd-29ccb53963fd</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sasimaniki.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85c7aec7-80ca-49e8-a4ed-b1a49cbb8426</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sasimaniki.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a73e1bc-7a95-4cb3-90bf-ebae848598ae</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sasimaniki.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67e0dd94-f02c-48e0-916a-b2566f0c32eb</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Socket</value>
+      <footprint>Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sasimaniki.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdf12bf5-4f64-414d-a301-bef7bad3503b</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sasimaniki.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bfc2c10c-3e2f-4dfb-ab4a-2b53485cdf7c</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x05_Pin</value>
+      <footprint>Connector_JST:JST_XH_S5B-XH-A_1x05_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sasimaniki.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d9a8a99-8834-437f-ac33-51a733b8bbba</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sasimaniki.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>159ef3dd-74eb-4021-8950-86d1e1698183</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AE-ESP32-WROOM-32E-MINI</value>
+      <footprint>sasimaniki:AE-ESP32-WROOM-32E-MINI</footprint>
+      <datasheet>https://akizukidenshi.com/catalog/g/g116108/</datasheet>
+      <libsource lib="sasimaniki" part="AE-ESP32-WROOM-32E-MINI" description="AE-ESP32-WROOM-32E-MINI"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sasimaniki.kicad_sch"/>
+      <property name="ki_description" value="AE-ESP32-WROOM-32E-MINI"/>
+      <property name="ki_keywords" value="ESP32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5939c2da-0a9c-4d2a-b305-8c285ed6f4d7</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AE-LXDC55-5V</value>
+      <footprint>sasimaniki:AE-LXDC55</footprint>
+      <datasheet>https://akizukidenshi.com/catalog/g/g109981/</datasheet>
+      <libsource lib="sasimaniki" part="AE-LXDC55-5V" description="Positive 1.5A 35V Switched Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sasimaniki.kicad_sch"/>
+      <property name="ki_description" value="Positive 1.5A 35V Switched Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <property name="ki_keywords" value="Voltage Regulator 1.5A Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c526e485-2092-4069-a508-6e2cde7f0ddd</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Socket">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Socket">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Pin">
+      <description>Generic connector, single row, 01x05, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="sasimaniki" part="AE-ESP32-WROOM-32E-MINI">
+      <description>AE-ESP32-WROOM-32E-MINI</description>
+      <docs>https://akizukidenshi.com/catalog/g/g116108/</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AE-ESP32-WROOM-32E-MINI</field>
+        <field name="Footprint">sasimaniki:AE-ESP32-WROOM-32E-MINI</field>
+        <field name="Datasheet">https://akizukidenshi.com/catalog/g/g116108/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="EN/RESET" type="input"/>
+        <pin num="3" name="SENSOR_VP/GPIO36/ADC1_CH0" type="input"/>
+        <pin num="4" name="SENSOR_VN/GPIO39/ADC1_CH3" type="input"/>
+        <pin num="5" name="GPIO34/ADC1_CH6" type="input"/>
+        <pin num="6" name="GPIO35/ADC1_CH7" type="input"/>
+        <pin num="7" name="32K_XP/GPIO32/ADC1_CH4" type="bidirectional"/>
+        <pin num="8" name="32K_XN/GPIO33/ADC1_CH5" type="bidirectional"/>
+        <pin num="9" name="DAC_1/ADC2_CH8/GPIO25" type="bidirectional"/>
+        <pin num="10" name="DAC_2/ADC2_CH9/GPIO26" type="bidirectional"/>
+        <pin num="11" name="ADC2_CH7/GPIO27" type="bidirectional"/>
+        <pin num="12" name="GPIO14" type="bidirectional"/>
+        <pin num="13" name="GPIO12" type="bidirectional"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="MTCK/GPIO13/ADC2_CH4" type="bidirectional"/>
+        <pin num="16" name="5V" type="power_in"/>
+        <pin num="17" name="MTDO/GPIO15/ADC2_CH3" type="bidirectional"/>
+        <pin num="18" name="ADC2_CH2/GPIO2" type="bidirectional"/>
+        <pin num="19" name="BOOT/ADC2_CH1/GPIO0" type="bidirectional"/>
+        <pin num="20" name="ADC2_CH0/GPIO4" type="bidirectional"/>
+        <pin num="21" name="GPIO16" type="bidirectional"/>
+        <pin num="22" name="GPIO17" type="bidirectional"/>
+        <pin num="23" name="GPIO5" type="bidirectional"/>
+        <pin num="24" name="GPIO18" type="bidirectional"/>
+        <pin num="25" name="GPIO19" type="bidirectional"/>
+        <pin num="26" name="GND" type="power_in"/>
+        <pin num="27" name="GPIO21" type="bidirectional"/>
+        <pin num="28" name="U0RXD/GPIO3" type="bidirectional"/>
+        <pin num="29" name="U0TXD/GPIO1" type="bidirectional"/>
+        <pin num="30" name="GPIO22" type="bidirectional"/>
+        <pin num="31" name="GPIO23" type="bidirectional"/>
+        <pin num="32" name="GND" type="power_in"/>
+        <pin num="34" name="U0TXD/GPIO1" type="bidirectional"/>
+        <pin num="35" name="U0RXD/GPIO3" type="bidirectional"/>
+        <pin num="36" name="5V" type="power_in"/>
+        <pin num="37" name="GND" type="power_in"/>
+        <pin num="38" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="sasimaniki" part="AE-LXDC55-5V">
+      <description>Positive 1.5A 35V Switched Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>https://akizukidenshi.com/catalog/g/g109981/</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AE-LXDC55-5V</field>
+        <field name="Footprint">sasimaniki:AE-LXDC55</field>
+        <field name="Datasheet">https://akizukidenshi.com/catalog/g/g109981/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="sasimaniki">
+      <uri>C:/Users/hfh03/OneDrive/workshop/20240600-sasimaniki/sasimaniki-kicad-lib/sasimaniki.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="5V" pintype="power_in"/>
+    </net>
+    <net code="3" name="/RXD">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="U0RXD/GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/SENSE">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/SERVO">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="6" name="/TXD">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="U0TXD/GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="26" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="32" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="8" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="9" name="Net-(J4-Pin_5)">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="10" name="Net-(U1-EN{slash}RESET)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="EN/RESET" pintype="input"/>
+    </net>
+    <net code="11" name="unconnected-(U1-3V3-Pad1)">
+      <node ref="U1" pin="1" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="12" name="unconnected-(U1-5V-Pad36)">
+      <node ref="U1" pin="36" pinfunction="5V" pintype="power_in"/>
+    </net>
+    <net code="13" name="unconnected-(U1-32K_XN{slash}GPIO33{slash}ADC1_CH5-Pad8)">
+      <node ref="U1" pin="8" pinfunction="32K_XN/GPIO33/ADC1_CH5" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="unconnected-(U1-32K_XP{slash}GPIO32{slash}ADC1_CH4-Pad7)">
+      <node ref="U1" pin="7" pinfunction="32K_XP/GPIO32/ADC1_CH4" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="unconnected-(U1-ADC2_CH0{slash}GPIO4-Pad20)">
+      <node ref="U1" pin="20" pinfunction="ADC2_CH0/GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="unconnected-(U1-ADC2_CH2{slash}GPIO2-Pad18)">
+      <node ref="U1" pin="18" pinfunction="ADC2_CH2/GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="unconnected-(U1-ADC2_CH7{slash}GPIO27-Pad11)">
+      <node ref="U1" pin="11" pinfunction="ADC2_CH7/GPIO27" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="unconnected-(U1-BOOT{slash}ADC2_CH1{slash}GPIO0-Pad19)">
+      <node ref="U1" pin="19" pinfunction="BOOT/ADC2_CH1/GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="unconnected-(U1-DAC_1{slash}ADC2_CH8{slash}GPIO25-Pad9)">
+      <node ref="U1" pin="9" pinfunction="DAC_1/ADC2_CH8/GPIO25" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="unconnected-(U1-DAC_2{slash}ADC2_CH9{slash}GPIO26-Pad10)">
+      <node ref="U1" pin="10" pinfunction="DAC_2/ADC2_CH9/GPIO26" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="unconnected-(U1-GND-Pad37)">
+      <node ref="U1" pin="37" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="22" name="unconnected-(U1-GND-Pad38)">
+      <node ref="U1" pin="38" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="23" name="unconnected-(U1-GPIO5-Pad23)">
+      <node ref="U1" pin="23" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="unconnected-(U1-GPIO12-Pad13)">
+      <node ref="U1" pin="13" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="unconnected-(U1-GPIO14-Pad12)">
+      <node ref="U1" pin="12" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="unconnected-(U1-GPIO16-Pad21)">
+      <node ref="U1" pin="21" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="unconnected-(U1-GPIO17-Pad22)">
+      <node ref="U1" pin="22" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="unconnected-(U1-GPIO18-Pad24)">
+      <node ref="U1" pin="24" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="unconnected-(U1-GPIO19-Pad25)">
+      <node ref="U1" pin="25" pinfunction="GPIO19" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="unconnected-(U1-GPIO21-Pad27)">
+      <node ref="U1" pin="27" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(U1-GPIO22-Pad30)">
+      <node ref="U1" pin="30" pinfunction="GPIO22" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="unconnected-(U1-GPIO23-Pad31)">
+      <node ref="U1" pin="31" pinfunction="GPIO23" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="unconnected-(U1-GPIO34{slash}ADC1_CH6-Pad5)">
+      <node ref="U1" pin="5" pinfunction="GPIO34/ADC1_CH6" pintype="input"/>
+    </net>
+    <net code="34" name="unconnected-(U1-GPIO35{slash}ADC1_CH7-Pad6)">
+      <node ref="U1" pin="6" pinfunction="GPIO35/ADC1_CH7" pintype="input"/>
+    </net>
+    <net code="35" name="unconnected-(U1-MTCK{slash}GPIO13{slash}ADC2_CH4-Pad15)">
+      <node ref="U1" pin="15" pinfunction="MTCK/GPIO13/ADC2_CH4" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="unconnected-(U1-MTDI{slash}GPIO12{slash}ADC2_CH5-Pad13)">
+      <node ref="U1" pin="13" pinfunction="MTDI/GPIO12/ADC2_CH5" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="unconnected-(U1-MTDO{slash}GPIO15{slash}ADC2_CH3-Pad17)">
+      <node ref="U1" pin="17" pinfunction="MTDO/GPIO15/ADC2_CH3" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="unconnected-(U1-MTMS{slash}GPIO14{slash}ADC2_CH6-Pad12)">
+      <node ref="U1" pin="12" pinfunction="MTMS/GPIO14/ADC2_CH6" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="unconnected-(U1-SENSOR_VN{slash}GPIO39{slash}ADC1_CH3-Pad4)">
+      <node ref="U1" pin="4" pinfunction="SENSOR_VN/GPIO39/ADC1_CH3" pintype="input"/>
+    </net>
+    <net code="40" name="unconnected-(U1-SENSOR_VP{slash}GPIO36{slash}ADC1_CH0-Pad3)">
+      <node ref="U1" pin="3" pinfunction="SENSOR_VP/GPIO36/ADC1_CH0" pintype="input"/>
+    </net>
+    <net code="41" name="unconnected-(U1-U0RXD{slash}GPIO3-Pad35)">
+      <node ref="U1" pin="35" pinfunction="U0RXD/GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="unconnected-(U1-U0TXD{slash}GPIO1-Pad34)">
+      <node ref="U1" pin="34" pinfunction="U0TXD/GPIO1" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
