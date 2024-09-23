@@ -11,7 +11,7 @@
 #include "BluetoothSerial.h"
 
 BluetoothSerial SerialBT;
-String const deviceName = "saniki TWO";
+String const deviceName = "saniki display";
 
 struct Node {
   unsigned long lastSeenAt_ms;
