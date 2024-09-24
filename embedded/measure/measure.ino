@@ -9,7 +9,7 @@
  *
  * 使用前に書き換えが必要な場所:
  *
- *   - nodeId と deviceId
+ *   - deviceName と targetDeviceName
  *   - servoPositions
  *   - weightConversionTables
  *
@@ -20,9 +20,9 @@
 #include "BluetoothSerial.h"
 #include <ESP32Servo.h>
 
-int const nodeId = 0;                         // 自分
-String const deviceName = "saniki measure 0"; // 自分。末尾の数字は nodeId。
-String const targetDeviceName = "saniki display"; // 表示部
+int nodeId = -1; // 自分のノード ID (0 から 7)。setup() 内で deviceName から計算して上書きされるので、ここで設定しても無駄。
+String const deviceName = "saniki measure 6"; // 自分。末尾の数字は nodeId。
+String const targetDeviceName = "saniki TJH";       // 表示部
 
 struct ServoPosition {
   uint32_t unlockPosition;
@@ -117,8 +117,19 @@ float Sensor_measure()
 
 BluetoothSerial BT_serialBT;
 
-void BT_connect()
+void BT_init()
 {
+  BT_serialBT.begin(deviceName, true);
+}
+
+bool BT_connect()
+{
+  return BT_serialBT.connect(targetDeviceName);
+}
+
+bool BT_connected(int timeout = 0)
+{
+  return BT_serialBT.connected(timeout);
 }
 
 void BT_sendWeight(float weight_kg)
@@ -128,6 +139,7 @@ void BT_sendWeight(float weight_kg)
 
 void BT_disconnect()
 {
+  BT_serialBT.disconnect();
 }
 
 
@@ -136,13 +148,22 @@ void BT_disconnect()
 
 void setup()
 {
+  nodeId = deviceName[deviceName.length() - 1] - '0';
+
   Serial.begin(115200);
 
   Serial.println();
-  Serial.println("@@@ measure");
+  Serial.printf("@@@ measure nodeId = %d\n", nodeId);
+  if (nodeId < 0 || nodeId > 7) {
+    Serial.println("got invalid nodeId, aborting");
+    abort();
+  }
 
-  LockingBar_init(16, servoPositions[nodeId].unlockPosition, servoPositions[nodeId].lockPosition);
+  LockingBar_init(16, // pin
+                  servoPositions[nodeId].unlockPosition,
+                  servoPositions[nodeId].lockPosition);
   Sensor_init(36);
+  BT_init();
 }
 
 float resistanceToWeight(float resistance)
@@ -168,17 +189,40 @@ float resistanceToWeight(float resistance)
   return t[numPoints - 1].weight_kg;
 }
 
-void loop()
+void loop_production()
 {
   LockingBar_unlock();
   float resistance = Sensor_measure();
   float weight_kg = resistanceToWeight(resistance);
   LockingBar_lock();
 
-  BT_connect();
-  BT_sendWeight(weight_kg);
-  BT_disconnect();
+  if (!BT_connect()) {
+    Serial.println("failed to connect to BT device");
+  } else {
+    BT_sendWeight(weight_kg);
+    BT_disconnect();
+  }
 
   delay(1000 * 60);
+}
 
+void loop_test_00()
+{
+  if (!BT_connect()) {
+    Serial.println("failed to connect to BT device");
+  } else {
+    float weight_kg = random(1000) / 1000.0f;
+    Serial.printf("sending weight: %f kg\n", weight_kg);
+    BT_sendWeight(weight_kg);
+    BT_disconnect();
+  }
+
+  delay(5000);
+}
+
+
+void loop()
+{
+  loop_production();
+  //loop_test_00();
 }
